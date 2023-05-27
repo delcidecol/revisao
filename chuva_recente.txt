@@ -5,3 +5,5 @@ hoje estou verificando como funciona o comando para enviar arquivo do repositori
 git push -u origin main
 
 retomando os estudo do git para praticar e aperfeiçoar dia 27/05/2023 --------
+
+assistindo o jogo do pato e marreco, com o placar de 1 x 1
