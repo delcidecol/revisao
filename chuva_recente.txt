@@ -1,0 +1,7 @@
+Hoje é dia 17/08 esta chovendo um pouco
+
+hoje estou verificando como funciona o comando para enviar arquivo do repositorio local para o Code Commit
+
+git push -u origin main
+
+retomando os estudo do git para praticar e aperfeiçoar dia 27/05/2023 --------
