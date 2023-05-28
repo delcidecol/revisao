@@ -1,0 +1,9 @@
+git init >> cria uma pasta git na sua pasta do projeto
+
+git status - >> verificar como esta o arquivo
+
+git add . >> passa o arquivo para a situação verde
+
+git Commit -m "mensagem" >> prepara para enviar ao repositório externo
+
+git push -u origin main  >> envia para o repositório externo
