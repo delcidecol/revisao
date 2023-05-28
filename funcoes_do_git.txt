@@ -32,3 +32,9 @@ MAIS COMANDOS
 
 git log --oneline  >> este mostra de forma resumida as versões que já foram feitas
 
+git reset >> retorno o arquino no estado anterior, ou sej, retira do estado de estady
+git add "nome do arquivo" que vou colocar no estado de adicionar no commit
+
+git checkout >> usado para navegar entre os commit, se  usar o git chekout~1 volto a um commit antes do ultimo
+        importante cuidar para não efetuar modificações no arquivo ao qual usou o git checkout para voltar.
+    https://www.udemy.com/course/java-curso-completo/learn/lecture/31111918#overview - aula com detalher de uso
