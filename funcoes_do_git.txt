@@ -1,9 +1,19 @@
-git init >> cria uma pasta git na sua pasta do projeto
+git init   >> cria uma pasta git na sua pasta do projeto
 
-git status - >> verificar como esta o arquivo
+git status -   >> verificar como esta o arquivo
 
-git add . >> passa o arquivo para a situação verde
+git add .   >> passa o arquivo para a situação verde envia para uma área temporária
 
-git Commit -m "mensagem" >> prepara para enviar ao repositório externo
+git branch -M main   >> para garantir que o projeto será usado com a main
 
-git push -u origin main  >> envia para o repositório externo
+git Commit -m "mensagem"   >> salva uma nova versão no repositório local git
+
+git remote add origin "git@github.com:------------.git  >> serve para associar seu projeto do repositório local ao repositório no github(externo)
+
+git push -u origin main    >> envia para o repositório externo
+
+para salvar o arquivo que foi modificado temos 03 passos
+
+1- git add .
+2 - git commit -m "mensagem"
+3 git push  .. como já é a segunda vez basta somento do ' git push'
