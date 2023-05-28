@@ -17,3 +17,13 @@ para salvar o arquivo que foi modificado temos 03 passos
 1- git add .
 2 - git commit -m "mensagem"
 3 git push  .. como já é a segunda vez basta somento do ' git push'
+
+//************* para clonar um projeto do gitHub para o repositório Loca **********
+COMANDOS
+
+git clone (mais o link que pego no github)
+depois segue os passos normais
+1- git add .
+2 - git commit -m "mensagem"
+3 git push  .. como já é a segunda vez basta somento do ' git push'
+4 - git log  >>> verificar o histórico
