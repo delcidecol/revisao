@@ -27,3 +27,8 @@ depois segue os passos normais
 2 - git commit -m "mensagem"
 3 git push  .. como já é a segunda vez basta somento do ' git push'
 4 - git log  >>> verificar o histórico
+
+MAIS COMANDOS
+
+git log --oneline  >> este mostra de forma resumida as versões que já foram feitas
+
