@@ -18,7 +18,7 @@ para salvar o arquivo que foi modificado temos 03 passos
 2 - git commit -m "mensagem"
 3 git push  .. como já é a segunda vez basta somento do ' git push'
 
-//************* para clonar um projeto do gitHub para o repositório Loca **********
+        //************* para clonar um projeto do gitHub para o repositório Loca **********
 COMANDOS
 
 git clone (mais o link que pego no github)
@@ -28,13 +28,55 @@ depois segue os passos normais
 3 git push  .. como já é a segunda vez basta somento do ' git push'
 4 - git log  >>> verificar o histórico
 
-MAIS COMANDOS
+        //*************MAIS COMANDOS
 
 git log --oneline  >> este mostra de forma resumida as versões que já foram feitas
 
-git reset >> retorno o arquino no estado anterior, ou sej, retira do estado de estady
+git reset >> retorno o arquino no estado anterior, ou sej, retira do estado de estage
+
 git add "nome do arquivo" que vou colocar no estado de adicionar no commit
 
 git checkout >> usado para navegar entre os commit, se  usar o git chekout~1 volto a um commit antes do ultimo
         importante cuidar para não efetuar modificações no arquivo ao qual usou o git checkout para voltar.
-    https://www.udemy.com/course/java-curso-completo/learn/lecture/31111918#overview - aula com detalher de uso
+    https://www.udemy.com/course/java-curso-completo/learn/lecture/31111918#overview - aula com detalhe de uso
+
+        // ************* COMO DESFAZER MODIFICAÇÕES NÃO SALVAS
+
+git reset  >> para voltar ao estado vermelho
+git clean -df 
+git checkout --
+
+        //********** O QUE FAZER QUANDO ABRE O EDITOR VIM
+:wq   - salvando edição
+
+        // ************ DESFAZER O ULTIMO COMMIT MANTENDO AS MODIFICAÇÕES
+git status
+git reset --soft head~1
+
+        // *********** DELETAR O COMMIT 
+git reset --hard HEAD~1
+
+ou
+git reset -- hard "número do commit que quer deixar"
+---------------------------------------------------------------------------------------
+        // ****** COMO ATUALIZAR O REPOSITÓRIO LOCAL EM RELAÇÃO O REMOTO
+---------------------------------------------------------------------------------------
+git pull origin main
+trouxe mas abriu o VIM  digitar:
+ESC :wq
+video explicativo: https://www.udemy.com/course/java-curso-completo/learn/lecture/31111938#overview
+
+        //*********** RESOLVENDO CONFLITOS **************
+precisará resolver o conflito fazendo um opção, será apresentado as duas opções 
+video : https://www.udemy.com/course/java-curso-completo/learn/lecture/31111940#overview
+
+--------------------------------------------------------------------------------
+        //**** COMO SOBRESCREVER O HISTÓRICO NO gitHub
+--------------------------------------------------------------------------------
+git push -f  >> força o histórico no github apagando de forma forçada todo o histórico sem recuperação
+-----------------------------------------------------------------------------------------------
+        // ************ COMO APONTAR O PROJETO PARA OUTRO REPOSITÓRIO REMOTO
+-----------------------------------------------------------------------------------------------
+git remote -v   >>para verificar o remote
+git remote set-url(copiar o sch do novo repositório)
+git push -u origin main   >> envia o projeto para o novo repositório
