@@ -88,4 +88,4 @@ git log --oneline --graph --all    >> mostra o grafo
 git branch  >> montra em qual branch esta
 git merge teste   >> fundir o ramo teste ao master/main
 
-
+git checkout main   >> mudar de branch
