@@ -80,3 +80,12 @@ git push -f  >> força o histórico no github apagando de forma forçada todo o 
 git remote -v   >>para verificar o remote
 git remote set-url(copiar o sch do novo repositório)
 git push -u origin main   >> envia o projeto para o novo repositório
+
+
+        //**-*-*-*-*-*-*-*-**-*-* FUSÃO DAS BRANCH
+git checkout teste   >> entrar no novo ramo (brench)
+git log --oneline --graph --all    >> mostra o grafo
+git branch  >> montra em qual branch esta
+git merge teste   >> fundir o ramo teste ao master/main
+
+
