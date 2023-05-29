@@ -89,3 +89,4 @@ git branch  >> montra em qual branch esta
 git merge teste   >> fundir o ramo teste ao master/main
 
 
+a mudança de branch acontece com o comando git checkout main
